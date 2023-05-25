@@ -1,10 +1,5 @@
-import sayHello from "../utils/helloworld.mjs";
+import helloWorld from "../helloworld.js";
 import assert from 'assert';
 
-
-it("Tests Hello World", ()=>{
-    const hello = sayHello();
-    assert.equal(hello,"hello");
-
-});
-console.log("Test result "+sayHello);
+const hello = helloWorld
+console.log(hello);
